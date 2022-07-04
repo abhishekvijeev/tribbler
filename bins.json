@@ -1,0 +1,18 @@
+{
+  "backs": [
+    "localhost:33968",
+    "localhost:33969",
+    "localhost:33970",
+    "localhost:33971",
+    "localhost:33972",
+    "localhost:33973",
+    "localhost:33974",
+    "localhost:33975",
+    "localhost:33976"
+  ],
+  "keepers": [
+    "localhost:33980",
+    "localhost:33981",
+    "localhost:33982"
+  ]
+}

@@ -1,0 +1,18 @@
+// DO NOT MODIFY
+syntax = "proto3";
+
+// DO NOT MODIFY
+package keeper;
+
+// Add your message and service definitions below this line
+message Status {
+    bool alive = 1;
+}
+
+message AddressHash {
+    uint64 address_hash = 1;
+}
+
+service KeeperLiveness {
+    rpc poll(AddressHash) returns (Status);
+}
